@@ -10,6 +10,7 @@ You can install the released version of SpatialMCMC from
 ``` r
 devtools::install_github("chun-lyu/Spatial-MCMC")
 ```
+or download the package from release page and install package locally.
 
 ## Example
 
