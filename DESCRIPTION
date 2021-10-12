@@ -1,0 +1,27 @@
+Package: SpatialMCMC
+Title: A small toolbox for fitting spatial econometrics.
+Description: This package is write for spatial econometrics model fitting, especially in MCMC. Duing to the development of spatial models, it is difficult to estimate many spatial model in MLE and 2SLS, therefore we start to look for new solution, and the MCMC is the most useful one, thanks to it bayes theory foundation.
+Version: 0.5
+Authors@R: 
+    person(given = "Chun",
+           family = "Lv",
+           role = c("aut","cre"),
+           email = "chun.lv@outlook.com")
+Maintainer: Chun Lyu <chun.lv@outlook.com>
+Depends: 
+    Matrix,
+    MCMCglmm,
+    testthat (>= 1.0.2),
+    MCMCpack,
+    tmvtnorm,
+    utils,
+    stats,
+    tools,
+    nimble,
+    methods
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Config/testthat/edition: 3
